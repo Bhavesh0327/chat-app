@@ -19,10 +19,11 @@ def main():
     password= getpass.getpass()
     cursor.execute("select * from userdb")
     row = cursor.fetchall()
-    if name == row[0] && password == row[1]:
-	continue
-    else
-	sys.exit()
+    if name == row[0] and password == row[1]:
+	    print("WELCOME" + name)
+    else:
+	    print("wrong entry")
+	    sys.exit()
     s = socket.socket()
     s.settimeout(2)
     
