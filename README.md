@@ -1,2 +1,1 @@
-# sysad_task3
-A simple chat application for multiple clients to chat with each other over the command line
+A simple command line tool built in Python using sockets to chat between multiple users over the same system.
